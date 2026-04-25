@@ -312,8 +312,8 @@ def create_arg_parser():
 
     # Instantiate the parser
     parser = argparse.ArgumentParser(description=(
-        'predict_3Di_encoderOnly.py translates 3Di sequences back to AA sequences. ' +
-        'Example: python predict_3Di_encoderOnly.py --input /path/to/some_3Di_sequences.fasta --output /path/to/some_AA_sequences.fasta --half 1')
+        'predict_AA_encoderOnly.py translates 3Di sequences back to AA sequences. ' +
+        'Example: python predict_AA_encoderOnly.py --input /path/to/some_3Di_sequences.fasta --output /path/to/some_AA_sequences.fasta --half 1')
     )
 
     # Required positional argument
